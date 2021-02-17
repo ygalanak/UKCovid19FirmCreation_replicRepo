@@ -6,11 +6,22 @@ Analysis of [Companies House](https://www.gov.uk/government/organisations/compan
 ## Repo folders
 ### Input
 Files used for the regional and sectoral analysis. It includes:
-- postcode areas to countries 
-- postcode areas to longitude and latitude details
-- UK SIC conversion to ONS Sections
+- `convertedPC2country.csv`: postcode areas to countries 
+- `Postcodes summaryCLEAN.csv`: postcode areas to longitude and latitude details
+- `sic2007conversion`: UK SIC conversion to ONS Sections
 
 ### Ouput
 It includes the random sample in January 2021 and January 2021. Further, it includes the results of the analysis in `.csv` format.
+#### Data
+- `replicData2021.csv`: random sample for January 2021
+- `replicData2019.csv`: random sample for January 2019
+
+#### Results
+- `repByDay.csv`: new firm registrations per day
+- `byDayPC`: new firm registrations per day and postcode area
+- `byDaySector.csv`: new firm registrations per day and ONS Section
+- `bySectorCompareALL.csv`: new firm registrations per ONS Section in a particular month
+
+
 
 For comments and feedback, [contact us](mailto:i.galanakis@kent.ac.uk).
